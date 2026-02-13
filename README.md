@@ -15,7 +15,7 @@ The project focuses on modern UI design principles, well-structured layouts, and
 
 ---
 
-## 🎯 Learning Goals
+## 🎯 Learning Goals:
 
 The main objectives of this project were to:
 
