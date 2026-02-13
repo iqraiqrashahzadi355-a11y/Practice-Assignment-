@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+        }
+        .container--column{
+            flex-direction: column;
+        }
+        .container--row{
+            flex-direction: row;
+        }
+        .container--wrap{
+            flex-wrap: wrap;
+        }
+        .grow{
+            flex-grow: 1;
+        }
+        .border{
+            border: 1px solid black;
+        }
+        .border--red{
+            border-color: red;
+        }
+        .border--blue{
+            border-color: blue;
+        }
+        .border--green{
+            border-color: green;
+        }
+        .dashboard{
+            padding: 20px;
+            gap: 25px;
+        }
+        .item {
+            background: aliceblue;
+            padding: 15px;
+            gap: 20px;
+        }
+        .features{
+            gap: 20px;
+        }
+        .card {
+           width: 500px;
+           background: antiquewhite;
+           padding: 10px;
+        }
+        .card__content{
+            display:flex;
+            flex-direction: column;
+            gap: 0px;
+        }         
+        .card__wrapper{
+            display: flex;
+            padding: 0px;
+        }
+        .card__icon {
+         width: 32px;
+         height: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard container container--column">
+        
+    <section-1 class="item container container--row border">
+        <div class="card border border--red">
+            <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+                <h2 class="card__title border border--blue">Active Matches</h2>
+                <p class="card__value grow border border--blue">0</p>
+            </div>
+            <div class="card__icon border border--blue"></div>
+            </div>
+        </div>
+        <div class="card border border--red">
+             <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+                <h2 class="card__title border border--blue">Complted Mentorships</h2>
+                <p class="card__value grow border border--blue">0</p>
+            </div>
+            <div class="card__icon border border--blue"></div>
+            </div>
+        </div>
+        <div class="card border border--red">
+            <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+                <h2 class="card__title border border--blue">Pending Request</h2>
+                <p class="card__value grow border border--blue">0</p>
+            </div>
+            <div class="card__icon border border--blue"></div>
+            </div>
+        </div>
+    </section-1>
+
+<section-2 class="features container container--row container--wrap border">
+    <div class="card border border--red">
+        <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+            <h3 class="card__title border border--blue">Browse Mentors</h3>
+            <p class="card__description border border--blue"> Find and connect with experienced mentors</p>
+            </div>
+        </div>
+    </div>
+    <div class="card border border--red">
+        <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+            <h3 class="card__title border border--blue">My Matches</h3>
+            <p class="card__description border border--blue">View your active mentorship relationships</p>
+            </div>
+        </div>
+    </div>
+        <div class="card border border--red">
+        <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+            <h3 class="card__title border border--blue">Goals and Progress</h3>
+            <p class="card__description border border--blue">Track your SMART objectives</p>
+            </div>
+        </div>
+    </div>
+    <div class="card border border--red">
+        <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+                <h3 class="card__title border border--blue">Settings</h3>
+                <p class="card__description border border--blue">Update your profile and preferences</p>
+            </div>
+        </div>
+    </div>
+    <div class="card border border--red">
+        <div class="card__wrapper container border border--green grow">
+            <div class="card__content grow">
+                <h3 class="card__title border border--blue">Community Mentors</h3>
+                <p class="card__description border border--blue">See our amazing mentor community</p>
+            </div>
+        </div>
+    </div>
+</section-2>
+</div>
+    </body>
+</html>
