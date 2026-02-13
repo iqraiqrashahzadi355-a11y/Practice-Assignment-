@@ -1,4 +1,4 @@
-# 📌 Mentorship Dashboard UI
+# 📌Practice Assignment UI
 
 ## 📖 Project Overview
 
@@ -51,7 +51,7 @@ The main objectives of this project were to:
 
 
 
-Mentorship-Dashboard
+Practice Assignment
 │
 ├── index.html
 └── docs
